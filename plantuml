@@ -1,0 +1,25 @@
+@startuml
+cloud etcd
+actor operator
+node host1 [
+host1
+====
+└─ <b>foremand
+----
+  ├─ app1 :3000
+....
+  └─ app2 :8000
+]
+node host2 [
+host2
+====
+└─ <b>foremand
+----
+  ├─ app1 :3000
+....
+  └─ app2 :8000
+]
+etcd <-- operator
+etcd --> host1
+etcd --> host2
+@enduml
