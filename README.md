@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/huazhihao/foremand.svg?branch=master)](https://travis-ci.org/huazhihao/foremand)
 [![GoDoc](https://godoc.org/github.com/huazhihao/foremand?status.svg)](https://godoc.org/github.com/huazhihao/foremand)
 
+`foremand` = `foreman` + `etcd`
 
 ## Quick Examples
 
