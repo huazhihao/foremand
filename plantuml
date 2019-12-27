@@ -1,4 +1,7 @@
 @startuml
+
+skinparam monochrome true
+
 cloud etcd
 actor operator
 node host1 [
@@ -6,20 +9,20 @@ host1
 ====
 └─ <b>foremand
 ----
-  ├─ app1 :3000
+      ├─ app1 :3000
 ....
-  └─ app2 :8000
+      └─ app2 :8000
 ]
 node host2 [
 host2
 ====
 └─ <b>foremand
 ----
-  ├─ app1 :3000
+      ├─ app1 :3000
 ....
-  └─ app2 :8000
+      └─ app2 :8000
 ]
-etcd <-- operator
-etcd --> host1
-etcd --> host2
+etcd <-- operator: write
+etcd --> host1: sync
+etcd --> host2: sync
 @enduml

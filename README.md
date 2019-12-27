@@ -5,6 +5,8 @@
 
 `foremand` = `foreman` + `etcd`
 
+![foremand architecture](https://www.plantuml.com/plantuml/png/jL112i8m4BplA_O3aJPUfDJYFyH3J28jDjcGfeWt7v6Z1z_YK_eIKriiUdVsiClim32pwuBmeJSjG7Tkh1DU63HaITQUZCRWUmqWM-eLwY0L21d88pdjHJh0aj9OKnTotCDxmpO1XXY7UCFoM9t8QoEi0fO0pySoGxoF6k5SZiKwop9O9Vn8uYpXM6n6oM6nvBCb_xlbc1nBnZwv2xpu9kZfmLWrLL1WTxNoc-GpkTDMfPfV "architecture")
+
 ## Quick Examples
 
 This short example assumes foremand, etcd and etcdctl are installed locally.
